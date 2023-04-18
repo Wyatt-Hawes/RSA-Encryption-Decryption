@@ -32,7 +32,7 @@ Command Line Options
 >    -n <pbfile> : Public key file is <pbfile>. Default: rsa.pub\
 >    -d <pvfile> : Private key file is <pvfile>. Default: rsa.priv\
 >    -v          : Enable verbose output.\n\
->    -h          : Display program synopsis and usage.\
+>    -h          : Display program synopsis and usage.
 >
 >
 >
@@ -45,7 +45,7 @@ Command Line Options
 >    -o <outfile>: Write output to <outfile>. Default: standard output.\
 >    -n <keyfile>: Public key is in <keyfile>. Default: rsa.pub.\
 >    -v          : Enable verbose output.\
->    -h          : Display program synopsis and usage.\
+>    -h          : Display program synopsis and usage.
 >
 >
 >Decrypt
@@ -57,7 +57,7 @@ Command Line Options
 >    -o <outfile>: Write output to <outfile>. Default: standard output.\
 >    -n <keyfile>: Private key is in <keyfile>. Default: rsa.priv.\
 >    -v          : Enable verbose output.\
->    -h          : Display program synopsis and usage.\
+>    -h          : Display program synopsis and usage.
 >
 >
 >
@@ -81,7 +81,7 @@ Step One:
 > "randstate.h"\
 > "rsa.c"\
 > "rsa.h"\
-> "test.c"\
+> "test.c"
 >
 
 > Are all inside the same directory.
