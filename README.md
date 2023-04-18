@@ -1,12 +1,6 @@
 How to run and use keygen, encrypt, and decrypt.
 ================================================
 
-IGNORE "test.c"!!!!!
---------------------
->
-> This is a testing file and is NOT intended to be used!
->
-
 What does it do?
 ----------------
 > Generates a ssh key and encryptes/decryptes files using the ssh methods.

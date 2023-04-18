@@ -2,7 +2,7 @@ CC = clang
 CFLAGS = -Wall -Werror -Wextra -Wpedantic -Ofast $(shell pkg-config --cflags gmp)
 LFLAGS = $(shell pkg-config --libs gmp)
 
-all: keygen encrypt decrypt test
+all: keygen encrypt decrypt
 
 keygen: keygen.o rsa.o randstate.o numtheory.o
 	$(CC) -o $@ $^ $(LFLAGS)
