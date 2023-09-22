@@ -119,7 +119,6 @@ int main(int argc, char **argv){
 	if(strcmp(input, "stdin") != 0){
 		enc_input = fopen(input, "r");
 	}else{
-		//printf("Setting to stdin\n");
 		enc_input = stdin;
 	}
 	
