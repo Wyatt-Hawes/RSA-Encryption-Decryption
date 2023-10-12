@@ -1,3 +1,6 @@
+# View WRITEUP.pdf to view statistics
+- Every file except .h header files were made by myself
+
 How to run and use keygen, encrypt, and decrypt.
 ================================================
 
